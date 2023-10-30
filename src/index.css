@@ -1,0 +1,352 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+      url('./fonts/Poppins-Regular/Poppins-Regular.woff2') format('woff2'),
+      url('./fonts/Poppins-Regular/Poppins-Regular.woff') format('woff'),
+      url('./fonts/Poppins-Regular/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Poppins {
+  font-family: 'Poppins';
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container-modal{
+  background-color: rgba(11, 76, 56, 0.20);
+}
+
+
+.bar {
+  position: relative;
+	background-color: #d8d8d8;
+	height: 10px;
+	margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+  border-radius: 10px;
+}
+.bar-title {
+  position: relative;
+	font-size: 1em;
+	text-align: left;
+	margin: 0 0 5px 0;
+}
+.percent {
+  position: absolute;
+	right: 0;
+}
+
+
+
+/*Edit here for Responsive*/
+.bar-fill-2{
+	width: 40%;
+    background-color: #054a2e;
+    animation: bar-fill-2 2s ease-out;
+    -moz-animation: bar-fill-2 2s ease-out;
+    -webkit-animation: bar-fill-2 2s ease-out;
+}
+@keyframes bar-fill-2 {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-moz-keyframes bar-fill-2 {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-webkit-keyframes bar-fill-2 {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+/*Edit here for Photoshop*/
+.bar-fill-photoshop{
+	width: 20%;
+    background-color: #054a2e;
+    animation: bar-fill-photoshop 2s ease-out;
+    -moz-animation: bar-fill-photoshop 2s ease-out;
+    -webkit-animation: bar-fill-photoshop 2s ease-out;
+}
+@keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-moz-keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-webkit-keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+
+/*Edit here for Responsive*/
+.bar-fill-3{
+	width: 60%;
+    background-color: #054a2e;
+    animation: bar-fill-3 2s ease-out;
+    -moz-animation: bar-fill-3 2s ease-out;
+    -webkit-animation: bar-fill-3 2s ease-out;
+}
+@keyframes bar-fill-3 {
+    0% {
+        width: 40%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes bar-fill-3 {
+    0% {
+        width: 40%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-3 {
+    0% {
+        width: 40%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+
+
+/*Edit here for Responsive*/
+.bar-fill-4{
+	width: 80%;
+    background-color: #054a2e;
+    animation: bar-fill-4 2s ease-out;
+    -moz-animation: bar-fill-4 2s ease-out;
+    -webkit-animation: bar-fill-4 2s ease-out;
+}
+@keyframes bar-fill-4 {
+    0% {
+        width: 60%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-moz-keyframes bar-fill-4 {
+    0% {
+        width: 60%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-webkit-keyframes bar-fill-4 {
+    0% {
+        width: 60%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+
+
+/*Edit here for Responsive*/
+.bar-fill-5{
+	width: 100%;
+    background-color: #054a2e;
+    animation: bar-fill-5 2s ease-out;
+    -moz-animation: bar-fill-5 2s ease-out;
+    -webkit-animation: bar-fill-5 2s ease-out;
+}
+@keyframes bar-fill-5 {
+    0% {
+        width: 80%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+@-moz-keyframes bar-fill-5 {
+    0% {
+        width: 80%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+@-webkit-keyframes bar-fill-5 {
+    0% {
+        width: 80%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+/* ================================================================================== */
+
+/*Edit here for Photoshop*/
+.bar-fill-one{
+	width: 35%;
+    background-color: #054a2e;
+    animation: bar-fill-photoshop 2s ease-out;
+	-moz-animation: bar-fill-photoshop 2s ease-out;
+    -webkit-animation: bar-fill-photoshop 2s ease-out;
+}
+@keyframes bar-fill-one {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+@-moz-keyframes bar-fill-one {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+@-webkit-keyframes bar-fill-one {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+
+/*Edit here for Responsive*/
+.bar-fill-two{
+	width: 70%;
+    background-color: #054a2e;
+    animation: bar-fill-2 2s ease-out;
+    -moz-animation: bar-fill-2 2s ease-out;
+    -webkit-animation: bar-fill-2 2s ease-out;
+}
+@keyframes bar-fill-two {
+    0% {
+        width: 35%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-moz-keyframes bar-fill-two {
+    0% {
+        width: 35%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-webkit-keyframes bar-fill-two {
+    0% {
+        width: 35%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+/*Edit here for Responsive*/
+.bar-fill-three{
+	width: 100%;
+    background-color: #054a2e;
+    animation: bar-fill-3 2s ease-out;
+	-moz-animation: bar-fill-3 2s ease-out;
+    -webkit-animation: bar-fill-3 2s ease-out;
+}
+@keyframes bar-fill-three {
+    0% {
+        width: 70%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+@-moz-keyframes bar-fill-three {
+    0% {
+        width: 70%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+@-webkit-keyframes bar-fill-three {
+    0% {
+        width: 70%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
